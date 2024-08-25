@@ -9,9 +9,10 @@ print("Hello, World!")
 **2. Variables and Data Types**
 
 ```python
-age = 25
-name = "John"
-is_student = True
+age = 25 # int
+name = "John" # string
+is_student = True # boolean
+weight = 70.5 # float
 ```
 
 **3. String Formatting**
@@ -30,7 +31,7 @@ first_item = my_list[0]
 **5. Dictionaries**
 
 ```python
-my_dict = {"key": "value", "name": "Alice"}
+my_dict = {"key": "value", "name": "Alice"} # Keys can be only immutable datatypes ( int, float, string, tuples)
 value = my_dict["key"]
 ```
 
@@ -85,7 +86,7 @@ except ZeroDivisionError:
 
 ```python
 class Dog:
-    def __init__(self, name):
+    def __init__(self, name): # Constructor function which is called when a class object is created
         self.name = name
 
 my_dog = Dog("Buddy")
